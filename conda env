@@ -1,0 +1,6 @@
+conda create -n irposindex python=3.10
+conda activate irposindex
+pip install -r requirements.txt
+
+Convert the notebook to html format:
+jupyter nbconvert --to html Amazon Cell Phone reviews.ipynb --embed-images --no-input --output Amazon Cell Phone reviews.html
